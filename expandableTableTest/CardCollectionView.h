@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardCollectionView.h
 //  expandableTableTest
 //
 //  Created by projectes on 25/1/18.
@@ -7,13 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController <
-UICollectionViewDelegate,
-UICollectionViewDataSource
->
-
+@interface CardCollectionView : UICollectionView
 
 @end
-

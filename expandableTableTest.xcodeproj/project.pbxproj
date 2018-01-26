@@ -13,6 +13,9 @@
 		234AA410201A005600CE12D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234AA40F201A005600CE12D7 /* Assets.xcassets */; };
 		234AA413201A005600CE12D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234AA411201A005600CE12D7 /* LaunchScreen.storyboard */; };
 		234AA416201A005600CE12D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234AA415201A005600CE12D7 /* main.m */; };
+		234AA41E201A246800CE12D7 /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234AA41D201A246800CE12D7 /* CardCollectionViewCell.m */; };
+		234AA421201A248700CE12D7 /* ExpandableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234AA420201A248700CE12D7 /* ExpandableTableViewCell.m */; };
+		234AA424201A26FB00CE12D7 /* CardCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 234AA423201A26FB00CE12D7 /* CardCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		234AA412201A005600CE12D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		234AA414201A005600CE12D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		234AA415201A005600CE12D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234AA41C201A246800CE12D7 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		234AA41D201A246800CE12D7 /* CardCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		234AA41F201A248700CE12D7 /* ExpandableTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandableTableViewCell.h; sourceTree = "<group>"; };
+		234AA420201A248700CE12D7 /* ExpandableTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableViewCell.m; sourceTree = "<group>"; };
+		234AA422201A26FB00CE12D7 /* CardCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCollectionView.h; sourceTree = "<group>"; };
+		234AA423201A26FB00CE12D7 /* CardCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				234AA411201A005600CE12D7 /* LaunchScreen.storyboard */,
 				234AA414201A005600CE12D7 /* Info.plist */,
 				234AA415201A005600CE12D7 /* main.m */,
+				234AA41C201A246800CE12D7 /* CardCollectionViewCell.h */,
+				234AA41D201A246800CE12D7 /* CardCollectionViewCell.m */,
+				234AA41F201A248700CE12D7 /* ExpandableTableViewCell.h */,
+				234AA420201A248700CE12D7 /* ExpandableTableViewCell.m */,
+				234AA422201A26FB00CE12D7 /* CardCollectionView.h */,
+				234AA423201A26FB00CE12D7 /* CardCollectionView.m */,
 			);
 			path = expandableTableTest;
 			sourceTree = "<group>";
@@ -142,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234AA424201A26FB00CE12D7 /* CardCollectionView.m in Sources */,
+				234AA41E201A246800CE12D7 /* CardCollectionViewCell.m in Sources */,
+				234AA421201A248700CE12D7 /* ExpandableTableViewCell.m in Sources */,
 				234AA40B201A005600CE12D7 /* ViewController.m in Sources */,
 				234AA416201A005600CE12D7 /* main.m in Sources */,
 				234AA408201A005600CE12D7 /* AppDelegate.m in Sources */,
