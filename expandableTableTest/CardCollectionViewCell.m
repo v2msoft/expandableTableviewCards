@@ -60,10 +60,11 @@
     [UIView animateWithDuration:0.3 animations:^{
         [tableView beginUpdates];
         [tableView endUpdates];
-        
+        [self setNeedsUpdateConstraints];
+        [self layoutIfNeeded];
     } completion:^(BOOL finish){
         if (finish){
-            
+            [self layoutIfNeeded];
         }
     }];
 }
